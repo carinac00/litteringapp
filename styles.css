@@ -10,13 +10,6 @@ font-family:Impact;
 	font-family:Impact;
 	text-align:right ;
 }
-
-#CALENDER {
-	color:black;
-	height:25px;
-	font-family:Impact;
-	text-align:bottom left ;
-}
  
 #RSVP {
 	color:white;
@@ -33,9 +26,13 @@ font-family:Impact;
 	display:flex;
 	flex-direction:row; 
 	justify-content:space-around;
+	font-size:25px;
 }
 
 .secondflexbox {
 	display:flex;
 	justify-content: space-around;
+	font-family:Impact;
+	color:black;
+	font-size:20px;
 }
