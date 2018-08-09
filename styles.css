@@ -6,37 +6,36 @@ font-family:Impact;
 
 #US {
 	color:white;
-	height:50px;
+	height:25px;
 	font-family:Impact;
 	text-align:right ;
 }
 
-#EVENT {
+#CALENDER {
 	color:black;
-	height:20px;
+	height:25px;
 	font-family:Impact;
 	text-align:bottom left ;
 }
  
 #RSVP {
-	color:black;
-	height:20px;
+	color:white;
+	height:25px;
 	font-family:Impact;
-	text-align: bottom left;
+	text-align:top-center;
 }
 
 .flexbox {
 	background-image:url('./trashphoto.png');
 	background-repeat:no-repeat;
 	background-repeat:repeat space;
-	border:1px solid white;
 	height:500px;
 	display:flex;
 	flex-direction:row; 
 	justify-content:space-around;
 }
-.create-events_rsvp {
-	flex-wrap:nowrap ;
+
+.secondflexbox {
 	display:flex;
-	justify-content:space-around;
- }
+	justify-content: space-around;
+}
