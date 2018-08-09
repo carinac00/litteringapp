@@ -1,0 +1,42 @@
+h1 { 
+color: white;
+height:50px;
+font-family:Impact;
+}	
+
+#US {
+	color:white;
+	height:50px;
+	font-family:Impact;
+	text-align:right ;
+}
+
+#EVENT {
+	color:black;
+	height:20px;
+	font-family:Impact;
+	text-align:bottom left ;
+}
+ 
+#RSVP {
+	color:black;
+	height:20px;
+	font-family:Impact;
+	text-align: bottom left;
+}
+
+.flexbox {
+	background-image:url('./trashphoto.png');
+	background-repeat:no-repeat;
+	background-repeat:repeat space;
+	border:1px solid white;
+	height:500px;
+	display:flex;
+	flex-direction:row; 
+	justify-content:space-around;
+}
+.create-events_rsvp {
+	flex-wrap:nowrap ;
+	display:flex;
+	justify-content:space-around;
+ }
