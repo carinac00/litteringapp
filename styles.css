@@ -1,0 +1,38 @@
+h1 { 
+color: white;
+height:50px;
+font-family:Impact;
+}	
+
+#US {
+	color:white;
+	height:25px;
+	font-family:Impact;
+	text-align:right ;
+}
+ 
+#RSVP {
+	color:white;
+	height:25px;
+	font-family:Impact;
+	text-align:top-center;
+}
+
+.flexbox {
+	background-image:url('./trashphoto.png');
+	background-repeat:no-repeat;
+	background-repeat:repeat space;
+	height:500px;
+	display:flex;
+	flex-direction:row; 
+	justify-content:space-around;
+	font-size:25px;
+}
+
+.secondflexbox {
+	display:flex;
+	justify-content: space-around;
+	font-family:Impact;
+	color:black;
+	font-size:20px;
+}
