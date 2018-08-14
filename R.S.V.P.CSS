@@ -1,7 +1,7 @@
 /* make a change */
 #header {
 	font-size:50px ;
-	font-family: ;
+	font-family:Impact ;
 	text-align: center;
 }
 
@@ -10,4 +10,5 @@
 	flex-direction: row;
 	justify-content: center;
 	font-size: 200%;
+	font-family:Impact;
 }
