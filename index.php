@@ -1,1 +1,3 @@
-<?php include_once("index.html"); ?>
+<?php 
+	header('X-Frame-Options: ALLOW'); 
+	include_once("index.html"); ?>
